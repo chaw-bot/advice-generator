@@ -6,3 +6,11 @@
   text-decoration: none;
   font-family: "Overpass", sans-serif;
 }
+
+body {
+  display: flex;
+  height: 90vh;
+  background-color: hsl(218, 23%, 16%);
+  justify-content: center;
+  align-items: center;
+}
