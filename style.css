@@ -2,9 +2,10 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  border: none;
   list-style: none;
   text-decoration: none;
-  font-family: "Overpass", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 body {
@@ -13,4 +14,44 @@ body {
   background-color: hsl(218, 23%, 16%);
   justify-content: center;
   align-items: center;
+  padding: 30%;
+}
+
+main {
+  border-radius: 10px;
+  background-color: hsl(217, 19%, 24%);
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  color: hsl(150, 100%, 66%);
+  font-size: 15px;
+  font-weight: 100;
+}
+
+p {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.image,
+h1,
+p {
+  padding: 10px;
+}
+
+button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: hsl(150, 100%, 66%);
+  position: absolute;
+  left: 44%;
+}
+
+button:hover {
+  box-shadow: 0 0 20px 2px hsl(150, 100%, 66%);
+  cursor: pointer;
 }
