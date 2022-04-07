@@ -15,7 +15,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://chaw-bot.github.io/advice-generator/)
 
 
 ## Getting Started
