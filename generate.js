@@ -1,7 +1,13 @@
-const quoteContainer = document.getElementById('quote-container');
-const button = document.getElementById('button');
+import axios from 'https://cdn.skypack.dev/axios';
+
 const baseURL = 'https://api.adviceslip.com/advice';
 
-button.addEventListener('click', () => {
-  quoteContainer.insertAdjacentHTML('afterbegin', '<h1 id="advice-num">ADVICE #</h1><p id="quote">"Some random advice"</p>');
-});
+const getRandomAdvice = async () => {
+  const response = await axios.get(baseURL);
+  const randomQuote = response.data.slip;
+  console.log(`Random quote: ${randomQuote}`);
+  return randomQuote;
+};
+
+getRandomAdvice();
+
