@@ -4,7 +4,9 @@
   "description": "> This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,7 @@
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {
-    "axios": "^0.26.1"
+    "axios": "^0.26.1",
+    "regenerator-runtime": "^0.13.9"
   }
 }
