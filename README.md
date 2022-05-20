@@ -3,6 +3,9 @@
 > This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 
+## Screenshots
+![screenshot](images/Screenshot%202022-04-07%20170857.png)
+
 ## Built With
 - Semantic HTML5 markup
 - CSS custom properties
@@ -10,9 +13,9 @@
 - CSS Grid
 - Mobile-first workflow
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://chaw-bot.github.io/advice-generator/)
 
 
 ## Getting Started

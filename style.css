@@ -2,7 +2,124 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  border: none;
   list-style: none;
   text-decoration: none;
-  font-family: "Overpass", sans-serif;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 90vh;
+  background-color: hsl(218, 23%, 16%);
+  justify-content: center;
+  align-items: center;
+  padding: 30%;
+}
+
+main {
+  border-radius: 10px;
+  background-color: hsl(217, 19%, 24%);
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  color: hsl(150, 100%, 66%);
+  font-size: 15px;
+  font-weight: 100;
+}
+
+p {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.image,
+h1,
+p {
+  padding: 10px;
+}
+
+button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: hsl(150, 100%, 66%);
+  position: absolute;
+  left: 44%;
+}
+
+button:hover {
+  box-shadow: 0 0 20px 2px hsl(150, 100%, 66%);
+  cursor: pointer;
+}
+
+/* loader */
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 25%;
+  }
+
+  button {
+    left: 48.5%;
+  }
 }
