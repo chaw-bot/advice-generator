@@ -13,7 +13,7 @@
 - CSS Grid
 - Mobile-first workflow
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://chaw-bot.github.io/advice-generator/)
 
